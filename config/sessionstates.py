@@ -50,6 +50,22 @@ def initialize_session_states():
     if "story_data_pages"  not in st.session_state:
         st.session_state.story_data_pages = {
             "page1": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
-            
+            "page2": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page3": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page4": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page5": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page6": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page7": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page8": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page9": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""},
+            "page10": {"narrative_outline": "", "storybook_text": "", "illustration_description": "", "gen-id": "", "seed": ""}
+        }
+    
+    if "story_data_character" not in st.session_state:
+        st.session_state.story_data_character = {
+            "character_name": "", 
+            "relation_to_character": "",
+            "character_description": "", 
+            "character_image": ""
         }
     return
